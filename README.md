@@ -6,8 +6,9 @@ This is a project created for my office dell computer , supported macOS high sie
 Installed at 2018-09-26 , works totally fine until now
 
 
-Updates:
 ![](<https://raw.githubusercontent.com/carlclone/Optiplex-3050-OSX86/master/image.png>)
+
+Updates:
 
 2019-09-27 upgraded to mojave 10.14.6 with a little help from 
 https://www.tonymacx86.com/threads/mojave-10-14-5-on-dell-optiplex-3050.279277/
