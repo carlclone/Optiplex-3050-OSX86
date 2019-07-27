@@ -1,0 +1,45 @@
+
+Clover EFI installer log - Thu Mar 14 17:14:52 CST 2019
+Installer version: v2.4k r4898 EFI bootloader
+======================================================
+/dev/disk0 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *60.0 GB    disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk1         59.8 GB    disk0s2
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +59.8 GB    disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume 1014                    9.8 GB     disk1s1
+   2:                APFS Volume Preboot                 64.4 MB    disk1s2
+   3:                APFS Volume Recovery                1.0 GB     disk1s3
+   4:                APFS Volume VM                      5.4 GB     disk1s4
+   5:                APFS Volume 1013                    41.4 GB    disk1s5
+
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *4.0 TB     disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:         Microsoft Reserved                         133.2 MB   disk2s2
+   3:       Microsoft Basic Data fourTB                  3.2 TB     disk2s3
+   4:                  Apple_HFS forNewTM                219.8 GB   disk2s4
+   5:       Microsoft Basic Data 10GB                    11.0 GB    disk2s5
+   6:       Microsoft Basic Data PrepareForWin           218.1 GB   disk2s6
+
+======================================================
+Backing up EFI files
+
+Backing up stage2 file /Volumes/1014/EFIROOTDIR/boot  to /Volumes/1014/EFI-Backups/r4674/2019-03-14-17h14/boot
+Backing up /Volumes/1014/EFIROOTDIR/EFI folder to /Volumes/1014/EFI-Backups/r4674/2019-03-14-17h14/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/1014
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/1014
+Stage 2 - Written boot6 (x64) to /Volumes/1014/boot
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
